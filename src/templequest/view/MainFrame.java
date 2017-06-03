@@ -7,6 +7,7 @@ package templequest.view;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
+import templequest.model.Model;
 
 /**
  *
@@ -14,9 +15,12 @@ import java.awt.Graphics;
  */
 public class MainFrame extends javax.swing.JFrame {
     
-    public MainFrame() {
+    
+    private Model model;
+    
+    public MainFrame(Model model) {
         
-        
+        this.model = model;
         
         this.setTitle("Temple Quest");
         this.setSize(200,200);
