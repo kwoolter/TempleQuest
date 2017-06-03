@@ -5,6 +5,8 @@
  */
 package templequest;
 
+import templequest.controller.Controller;
+
 /**
  *
  * @author user
@@ -18,6 +20,13 @@ public class TempleQuest {
         // TODO code application logic here
         
         System.out.println("\nHello World");
+        
+        
+        Controller controller = new Controller();
+        controller.run();
+                
+        
+
         
     }
     
