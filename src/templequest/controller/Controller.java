@@ -20,6 +20,8 @@ public class Controller {
     public Controller() {
         
         this.model = new Model("Temple Quest");
+        this.model.initialise();
+        this.model.print();
         
         this.view = new MainFrame(this.model);
         

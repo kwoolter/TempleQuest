@@ -12,11 +12,25 @@ package templequest.model;
 public class Model {
     
     private String sName;
+    private Map map;
     
     public Model(String sName) {
         
         this.sName = sName;
+        this.map = new Map();
         
+    }
+    
+    public void initialise() {
+        
+        this.map.initialise();
+      
+        
+    }
+    
+    public void print() {
+        
+        this.map.print();
     }
     
 }
