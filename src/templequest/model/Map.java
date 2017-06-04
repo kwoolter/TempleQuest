@@ -27,6 +27,10 @@ public class Map {
             
             this.listFloors.put(newFloor.getID(), newFloor);
             
+            newFloor = new Floor(10000, "End");
+            
+            this.listFloors.put(newFloor.getID(), newFloor);
+            
         }
         
         
